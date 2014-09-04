@@ -51,6 +51,32 @@ H1:  Arvo #0000000;
 H2: Open Sans #5e080c;
 P: Open Sans #000000;
 CURSIVE FONT: Alex Brush;
-
-
 -------------------------------------------------------------- */
+
+	.site-title a {
+		font-family: 'Arvo', serif;
+		color:#0000000;
+	}
+
+	.entry-title {
+		font-family: 'Open Sans', sans-serif;
+		color:#5e080c;
+	}
+
+	p {
+		font-family: 'Open Sans', sans-serif;
+		color:#000000;
+	}
+
+	.site-description {
+		font-family: 'Alex Brush', cursive;
+	}
+
+	a {
+		color: #bb261b;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+
+
+
