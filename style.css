@@ -56,6 +56,10 @@ P: Open Sans #000000;
 CURSIVE FONT: Alex Brush;
 -------------------------------------------------------------- */
 
+	html, body {
+		background-image: url('http://dev.petelower.com/styletiles/brickstonemasonryinc/imgs/brick.png');
+	}
+
 	.site-title a {
 		font-family: 'Arvo', serif;
 		color:#0000000;
@@ -107,3 +111,17 @@ CURSIVE FONT: Alex Brush;
 	.main-navigation .nav-menu .menu-item:nth-child(5),
 	.main-navigation .nav-menu .menu-item:nth-child(6),
 	.main-navigation .nav-menu .menu-item:nth-child(7){float:right;width:100px;}
+
+	.site-content article {border:none;}
+
+	.prefoot-meta {height:50px;background:#5E080C;}
+	.prefoot-meta .pfmeta-block {display:inline-block;width:30%;color:white;text-align:center;}
+
+	#colophon {
+		margin-top:0;
+		background-image:url('http://dev.petelower.com/styletiles/brickstonemasonryinc/imgs/stone.png');
+		background-repeat: none;
+		max-width: 100%;
+		width:100%;
+		height:500px;
+	}
