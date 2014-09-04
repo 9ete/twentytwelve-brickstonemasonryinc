@@ -80,9 +80,30 @@ CURSIVE FONT: Alex Brush;
 		font-family: 'Open Sans', sans-serif;
 	}
 
+	.brickstone-logo-wrap {
+	display: block;
+	margin: auto;
+	width: 300px;
+	margin-top: -130px;
+	background: white;
+	position: relative;
+	z-index: 2;
+	}
+	.brickstone-logo-wrap .header-image {border-radius:0;box-shadow: none;margin-top:0;}
 
+	.site-header {display:none;}
 
+	.site .main-navigation {margin-top:100px;}
+	.site .main-navigation .nav-menu {background:white;}
+	.site .main-navigation .nav-menu .menu-item {background:black;text-align:center;margin:0;}
+	.site .main-navigation .nav-menu .menu-item a {color:white;}
 
-	.main-navigation {margin-top:0;}
+	.main-navigation .nav-menu .menu-item:nth-child(1),
+	.main-navigation .nav-menu .menu-item:nth-child(2),
+	.main-navigation .nav-menu .menu-item:nth-child(3){float:left;width:110px;}
 
+	.main-navigation .nav-menu .menu-item:nth-child(4){width:330px;}
 
+	.main-navigation .nav-menu .menu-item:nth-child(5),
+	.main-navigation .nav-menu .menu-item:nth-child(6),
+	.main-navigation .nav-menu .menu-item:nth-child(7){float:right;width:100px;}
