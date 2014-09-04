@@ -47,6 +47,10 @@
 
 		<?php if ( get_header_image() ) : ?>
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php header_image(); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
+		<?php else: ?>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="http://dev.petelower.com/styletiles/brickstonemasonryinc/imgs/bsm_square.png" class="header-image" width="300" alt="" /></a>
+		
+		
 		<?php endif; ?>
 	</header><!-- #masthead -->
 
