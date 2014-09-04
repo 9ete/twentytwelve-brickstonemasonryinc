@@ -10,10 +10,6 @@
  Text Domain:  twenty-twelve-child
 */
 
-/* =Theme customization starts here
--------------------------------------------------------------- */
-
-
 .site-content {
 	float:left;
 }
@@ -42,3 +38,19 @@ hgroup {width:100%;margin:20px 0;}
 .site-header .site-title, 
 .site-header .site-description, 
 .site-header .site-phonenumber {text-align:right;}
+
+/* =Theme customization starts here
+
+DARK RED: #5E080C;
+BLACK:#000000;
+GREY:#474646;
+RED:#BB261B;
+WHITE:#FFFFFF;
+
+H1:  Arvo #0000000;
+H2: Open Sans #5e080c;
+P: Open Sans #000000;
+CURSIVE FONT: Alex Brush;
+
+
+-------------------------------------------------------------- */
