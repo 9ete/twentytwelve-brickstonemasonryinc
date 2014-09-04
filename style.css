@@ -16,8 +16,11 @@
 
 body {background:white;}
 body .site {
-	box-shadow: none;
-	background: none;
+	/*box-shadow: none;
+	background: none;*/
+	margin-top:0;
+	margin-bottom:0;
+	padding:0;
 }
 
 @media screen and (min-width: 600px) {
@@ -78,5 +81,8 @@ CURSIVE FONT: Alex Brush;
 	}
 
 
+
+
+	.main-navigation {margin-top:0;}
 
 
